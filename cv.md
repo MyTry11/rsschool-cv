@@ -41,10 +41,14 @@ Experience
      * Tatar
      * English (B2)
 
-* Hobbies
+Hobbies
+----------
+
     I like playing video games. Right now I play HotS and stream it on twitch.tv/my_try. Come to see :-) 
 
     I also like learning about flora and fauna. Sometimes I go to the rivers, lakes and forests near my city.
 
-* Goals
+Goals
+----------
+
     I would like to learn programming and especially javascript, because I like the idea that I can be a part of constantly growing and progressing community where you can invent new things and help hummanity with it. I also like the lifestyle developers have - working remotely and travel to different places.
