@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mytry11.github.io/rsschool-cv/cv
