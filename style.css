@@ -1,7 +1,16 @@
-img {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first_block>img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
 
+
+footer {
+    background-color: aqua;
+}
 /* 1138 1517 0,7501 */
