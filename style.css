@@ -2,29 +2,90 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+}
+
+header {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+main>section:not(.first_section){
+    height: 200px;
+    width: 620px;
+    justify-content: center;
+    padding: 0 30px 30px 30px;
+    border-bottom: 1px solid rgba(99, 72, 27, 0.5);
+    
+    margin: 0 20px 20px 20px;
+
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    border-bottom: 10px solid rgba(99, 72, 27, 0.5);
+    width: 1440px;
+}
+
+.second_section.s_s {
+    padding-top: 30px;
+}
+.third_section.t_s {
+    padding-top: 30px;
+}
+
+#sixth_section {
+    height: 140px;
+}
+
+#seventh_section {
+    height: 140px;
+}
+
+#eighth_section {
+    border-bottom: none;
+    height: 80px;
+}
+
+
+
+p {
+    line-height: 1.5em;
+    color: #505050;
+}
 .header_nav_bar {
     display: flex;
     justify-content: flex-end;
-}
-.header_nav_bar>li {
-    padding: 20px;
-    
+    width: 1440px;
 }
 
-.header_nav_bar:last-child {
-    padding-right: 500px;
+
+.header_nav_bar>li {
+    padding: 20px;  
 }
+
 
 li {
     list-style-type: none;
+    line-height: 1.5em;
+    color: #505050;
 }
 
-.first_block {
-    display: flex;
-    padding-left: 360px;
-    
+
+
+
+ul:not(.header_nav_bar) {
+    padding: 0;
 }
 
 .name>h1 {
@@ -32,7 +93,7 @@ li {
 
 }
 
-.name>h2 {
+h2 {
     font: 100 1.5em Roboto, sans-serif;
 }
 
@@ -40,22 +101,35 @@ li {
 .name {
     display: flex;
     flex-direction: column;
-    padding-left: 320px;
     padding-top: 60px;
     text-align: center;
 }
 
 
 
-.first_block>img {
+.first_section>img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
 
 }
 
-
 footer {
+    display: flex;
+    justify-content: center;
     background-color: aqua;
 }
-/* 1138 1517 0,7501 */
+
+.footer_nav_bar {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 60px;
+
+}
+
+a:active {
+    outline: none;
+    color: none;
+}
+
